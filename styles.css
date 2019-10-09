@@ -1,0 +1,134 @@
+html{
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body{
+  width: 100%;
+}
+ .header  {
+  background: blue;
+  height: 900px;
+  width: 100%;
+  color: white;
+  padding-top: 20px;
+}
+.header a {
+  color: white;
+  padding-left: 90px;
+  font-size: 37pt;
+  text-decoration: none;
+}
+.header small {
+  font-size: 12pt;
+  padding-left: 170px;
+}
+.header h1 {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 50pt;
+}
+header {
+  display: flex;
+}
+.Toplinks {
+  background: gray;
+  height: 900px;
+  font-size: 1.31rem;
+  text-decoration: none;
+}
+h1,   {
+  font-family: Oswald,sans-serif;
+}
+.text h2 {
+  letter-spacing: 0.07em;
+  font-family: freight-sans-pro,sans-serif;
+  color: #717172;
+}
+.text p {
+  letter-spacing: 0.07em;
+  font-family: freight-sans-pro,sans-serif;
+  color: #717172;
+}
+.hof2{
+  font-family: freight-sans-pro,sans-serif;
+  color: #717172;
+}
+.Toplinks li  {
+ list-style: none;
+ padding-top: 20px;
+ padding-right: 20px;
+}
+.Toplinks li a {
+  text-decoration: none;
+  color: white;
+}
+.body {
+  display: flex;
+  background-color: #FFF1E9;
+}
+.text{
+  padding: 50px;
+  font-size: 12pt;
+}
+.text a {
+  text-decoration: none;
+  color: red;
+}
+ h2 {
+  text-align: center;
+  font-size: 30pt;
+}
+.link1 {
+  background-image: url(asset/nav-img-relo.jpg);
+  height: 300px;
+  width: 20%;
+  border-bottom: #fcb53b 10px solid;
+}
+.link2 {
+  background-image: url(asset/nav-img-retro.jpg);
+  height: 300px;
+  width: 20%;
+  border-bottom: #84b8a2 10px solid;
+}
+.link3 {
+  background-image: url(asset/nav-img-tono.jpg);
+  height: 300px;
+  width: 20%;
+  border-bottom: #e37640 10px solid;
+}
+.link4 {
+  background-image: url(asset/nav-img-proto.jpg);
+  height: 300px;
+  width: 20%;
+  border-bottom: #99918a 10px solid;
+}
+.link5 {
+  background-image: url(asset/nav-img-deco.jpg);
+  height: 300px;
+  width: 20%;
+  border-bottom: #70afb9 10px solid;
+  text-transform: lowercase;
+}
+.familybusinesses ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+
+}
+.familybusinesses li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+footer div{
+  display: flex;
+  align-items: baseline;
+}
+footer div a:hover{
+  background: black;
+}
