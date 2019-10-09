@@ -1,3 +1,11 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 html{
   box-sizing: border-box;
   background-size: cover;
@@ -31,7 +39,7 @@ body{
 header {
   display: flex;
 }
-.Toplinks {
+aside .Toplinks {
   background: gray;
   height: 900px;
   font-size: 1.31rem;
@@ -39,6 +47,10 @@ header {
 }
 h1,   {
   font-family: Oswald,sans-serif;
+}
+span {
+  font-family: Polaris-Book,sans-serif;
+  font-size: 40px;
 }
 .text h2 {
   letter-spacing: 0.07em;
@@ -53,11 +65,17 @@ h1,   {
 .hof2{
   font-family: freight-sans-pro,sans-serif;
   color: #717172;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .Toplinks li  {
  list-style: none;
  padding-top: 20px;
  padding-right: 20px;
+ padding-left: 20px
+}
+.Toplinks ul {
+  padding-top: 100px;
 }
 .Toplinks li a {
   text-decoration: none;
@@ -84,24 +102,32 @@ h1,   {
   height: 300px;
   width: 20%;
   border-bottom: #fcb53b 10px solid;
+  text-align: center;
+  padding-top: 80px;
 }
 .link2 {
   background-image: url(asset/nav-img-retro.jpg);
   height: 300px;
   width: 20%;
   border-bottom: #84b8a2 10px solid;
+  text-align: center;
+  padding-top: 80px;
 }
 .link3 {
   background-image: url(asset/nav-img-tono.jpg);
   height: 300px;
   width: 20%;
   border-bottom: #e37640 10px solid;
+  text-align: center;
+  padding-top: 80px;
 }
 .link4 {
   background-image: url(asset/nav-img-proto.jpg);
   height: 300px;
   width: 20%;
   border-bottom: #99918a 10px solid;
+  text-align: center;
+  padding-top: 80px;
 }
 .link5 {
   background-image: url(asset/nav-img-deco.jpg);
@@ -109,6 +135,8 @@ h1,   {
   width: 20%;
   border-bottom: #70afb9 10px solid;
   text-transform: lowercase;
+  text-align: center;
+  padding-top: 80px;
 }
 .familybusinesses ul {
   display: flex;
@@ -118,12 +146,13 @@ h1,   {
 }
 .familybusinesses li a {
   color: white;
-  text-align: center;
   text-decoration: none;
 }
 footer {
   display: flex;
   justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 footer div{
   display: flex;
