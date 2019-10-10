@@ -15,8 +15,8 @@ body{
   width: 100%;
 }
  .header  {
-  background: blue;
-  height: 900px;
+  background-image: url("asset/Screen Shot 2019-10-10 at 10.52.41 AM.png");
+  background-repeat: no-repeat;
   width: 100%;
   color: white;
   padding-top: 20px;
@@ -34,6 +34,7 @@ body{
 .header h1 {
   padding-left: 20%;
   padding-right: 20%;
+  padding-top: 20%;
   font-size: 50pt;
 }
 header {
