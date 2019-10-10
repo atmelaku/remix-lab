@@ -27,9 +27,11 @@ body{
   font-size: 37pt;
   text-decoration: none;
   letter-spacing: 1.6px;
+
 }
 .Toplinks nav li:hover{
   border: 1px solid #c7ad6d;
+  background-color: #c7ad6d;
 }
 .header small {
   font-size: 12pt;
@@ -40,6 +42,7 @@ body{
   padding-right: 20%;
   padding-top: 20%;
   font-size: 50pt;
+  background: #f7bf08;
 }
 header {
   display: flex;
@@ -66,8 +69,9 @@ span {
 .text p {
   letter-spacing: 0.07em;
   font-family: freight-sans-pro,sans-serif;
-  color: #717172;
+  color: white;
   padding: 10px;
+  background: #24648c;
 }
 .hof2{
   background-color: #2a2d24;
