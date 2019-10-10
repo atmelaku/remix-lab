@@ -26,6 +26,7 @@ body{
   padding-left: 90px;
   font-size: 37pt;
   text-decoration: none;
+  letter-spacing: 1.6px;
 }
 .header small {
   font-size: 12pt;
@@ -54,6 +55,7 @@ span {
   font-size: 40px;
 }
 .text h2 {
+  background-color: #f7bf08;
   letter-spacing: 0.07em;
   font-family: freight-sans-pro,sans-serif;
   color: #717172;
@@ -62,6 +64,7 @@ span {
   letter-spacing: 0.07em;
   font-family: freight-sans-pro,sans-serif;
   color: #717172;
+  padding: 10px;
 }
 .hof2{
   font-family: freight-sans-pro,sans-serif;
@@ -149,13 +152,17 @@ span {
   color: white;
   text-decoration: none;
 }
+footer p{
+  font-style: italic;
+  color: white;
+}
 footer {
   background: #393939;
   display: flex;
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 40px;
-
+border-top: solid 2px #fff;
 }
 footer div{
   display: flex;
