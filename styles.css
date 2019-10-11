@@ -22,11 +22,12 @@ body{
   padding-top: 20px;
 }
 .header a {
-  color: white;
+  color: #f7bf08;
   padding-left: 90px;
   font-size: 37pt;
   text-decoration: none;
   letter-spacing: 1.6px;
+
 
 }
 .Toplinks nav li:hover{
@@ -111,6 +112,7 @@ span {
 }
 .link1 {
   background-image: url(asset/nav-img-relo.jpg);
+  background: #0c7e9f;
   height: 300px;
   width: 20%;
   border-bottom: #fcb53b 10px solid;
@@ -119,6 +121,7 @@ span {
 }
 .link2 {
   background-image: url(asset/nav-img-retro.jpg);
+  background: #fff053;
   height: 300px;
   width: 20%;
   border-bottom: #84b8a2 10px solid;
@@ -127,6 +130,7 @@ span {
 }
 .link3 {
   background-image: url(asset/nav-img-tono.jpg);
+  background: #dd1a32;
   height: 300px;
   width: 20%;
   border-bottom: #e37640 10px solid;
@@ -135,6 +139,7 @@ span {
 }
 .link4 {
   background-image: url(asset/nav-img-proto.jpg);
+  background: #f99f34;
   height: 300px;
   width: 20%;
   border-bottom: #99918a 10px solid;
@@ -143,6 +148,7 @@ span {
 }
 .link5 {
   background-image: url(asset/nav-img-deco.jpg);
+  background: #92d6e3;
   height: 300px;
   width: 20%;
   border-bottom: #70afb9 10px solid;
@@ -178,4 +184,9 @@ footer div{
 }
 footer div a:hover{
   background: black;
+}
+@media only screen and (max-width: 900px) {
+  .body{
+    display: block;
+  }
 }
