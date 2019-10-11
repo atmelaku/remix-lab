@@ -15,7 +15,7 @@ body{
   width: 100%;
 }
  .header  {
-  background-image: url("asset/Screen Shot 2019-10-10 at 10.52.41 AM.png");
+  background: lightgray;
   background-repeat: no-repeat;
   width: 100%;
   color: white;
@@ -50,6 +50,7 @@ header {
 }
 aside .Toplinks {
   background: gray;
+  background-color: rgba(42,45,36,0.9);
   height: 900px;
   font-size: 1.31rem;
   text-decoration: none;
@@ -97,6 +98,7 @@ span {
 .body {
   display: flex;
   background-color: #FFF1E9;
+  background-color: white;
 }
 .text{
   padding: 50px;
@@ -111,7 +113,6 @@ span {
   font-size: 30pt;
 }
 .link1 {
-  background-image: url(asset/nav-img-relo.jpg);
   background: #0c7e9f;
   height: 300px;
   width: 20%;
@@ -120,7 +121,6 @@ span {
   padding-top: 80px;
 }
 .link2 {
-  background-image: url(asset/nav-img-retro.jpg);
   background: #fff053;
   height: 300px;
   width: 20%;
@@ -129,7 +129,6 @@ span {
   padding-top: 80px;
 }
 .link3 {
-  background-image: url(asset/nav-img-tono.jpg);
   background: #dd1a32;
   height: 300px;
   width: 20%;
@@ -138,7 +137,6 @@ span {
   padding-top: 80px;
 }
 .link4 {
-  background-image: url(asset/nav-img-proto.jpg);
   background: #f99f34;
   height: 300px;
   width: 20%;
@@ -147,7 +145,6 @@ span {
   padding-top: 80px;
 }
 .link5 {
-  background-image: url(asset/nav-img-deco.jpg);
   background: #92d6e3;
   height: 300px;
   width: 20%;
@@ -185,7 +182,7 @@ footer div{
 footer div a:hover{
   background: black;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
   .body{
     display: block;
   }
